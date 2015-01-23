@@ -1,0 +1,61 @@
+
+html {
+	background-color: #ae3d26;
+		font-family: 'Roboto', sans-serif;
+}
+
+
+
+h1, h2{
+	font-weight: normal; /*normal size*/
+	font-size: 5rem;
+	font-style: italic;
+	text-decoration: underline;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
+}
+
+
+ol{
+	font-size: 3rem;
+	padding: 0;
+}
+
+
+
+li.boldest {
+	color: red;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+a:hover {
+	font-size:1.1rem;
+	color: yellow;
+}
+
+
+
+/* REM
+web based measurement system
+fonts grow and shrink based on user preference
+Don't force a font size on someone, decreases accessibility
+REM just multiplies the size of the font
+based on the default font size that the user sets in the browser
+
+Webfonts
+Only use web approved fonts that are licensed for the web
+Use Google Fonts
+link in html because @import is slower
+
+line height=leading
+change the space around the lines of text
+multiplier
+1.5 is a nice loose leading size.
+
+Styling Links:
+
+
+*/
